@@ -1,0 +1,27 @@
+{
+  "name": "batteldship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CornetS28/batteldship-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CornetS28/batteldship-js/issues"
+  },
+  "homepage": "https://github.com/CornetS28/batteldship-js#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.2"
+  }
+}
